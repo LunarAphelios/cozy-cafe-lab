@@ -10,6 +10,7 @@ mainTitleEl.textContent = "Welcome to the cozy cafe";
 const highlightTitleEls = document.querySelectorAll('.highlight-title');
 highlightTitleEls.forEach(element => {
     console.log(element.textContent);
+    element.style.fontStyle = 'italic';
     
 
     
