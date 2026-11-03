@@ -1,3 +1,16 @@
 console.log('Cozy Cafe JavaScript is connected!');
+
+//part 1 
 const mainTitleEl = document.querySelector('#main-title');
-mainTitleEl = "Welcome to the Cozy Cafe";
+console.log(mainTitleEl.textContent);
+mainTitleEl.textContent = "Welcome to the cozy cafe";
+
+
+//part 2
+const highlightTitleEls = document.querySelectorAll('.highlight-title');
+highlightTitleEls.forEach(element => {
+    console.log(element.textContent);
+    
+
+    
+});
