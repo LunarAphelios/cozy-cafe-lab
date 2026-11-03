@@ -12,6 +12,10 @@ highlightTitleEls.forEach(element => {
     console.log(element.textContent);
     element.style.fontStyle = 'italic';
     
-
-    
 });
+const paragraphEl = document.querySelector('#quote-of-the-day');
+paragraphEl.textContent = "A cup of coffee never hurt anyone";
+paragraphEl.classList.add("featured");
+
+
+//part 3

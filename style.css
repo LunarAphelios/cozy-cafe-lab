@@ -59,6 +59,13 @@ li {
   font-weight: bold;
 }
 
+.featured{
+    background-color: #eadbc8;
+    border: 1px solid #76523c;
+    padding: 12px;
+    text-align: center;
+}
+
 button {
   background-color: #76523c;
   color: white;
