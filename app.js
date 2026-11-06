@@ -25,3 +25,50 @@ imageEl.setAttribute("src","./assets/berry-cake.jpg");
 imageEl.setAttribute("alt","A berry cake served at the cafe");
 
 
+//part 4
+const btnEl = document.querySelector('#bg-color-btn');
+const bodyEl = document.querySelector('body');
+function handleBackgroundChange(){
+    bodyEl.style.backgroundColor='lavender';
+}
+btnEl.addEventListener('click',(handleBackgroundChange));
+
+
+
+//part 5
+const roseElement = document.querySelector('#rose-latte');
+const pistachioElement = document.querySelector('#croissant');
+const lotusElement = document.querySelector('#cheesecake');
+const roseButton = document.getElementById('0')
+const pistachioButton = document.getElementById('1');
+const lotusButton = document.getElementById('2');
+
+roseElement.textContent='available';
+pistachioElement.textContent='sold out';
+lotusElement.textContent='available';
+
+roseButton.addEventListener('click',() => {
+    roseElement.textContent = 'sold out';
+
+})
+pistachioButton.addEventListener('click',() => {
+     pistachioElement.textContent = 'sold out';
+
+})
+lotusButton.addEventListener('click',() => {
+     lotusElement.textContent = 'sold out';
+
+})
+
+// const specialtyElements = document.querySelectorAll('.specialty-status');
+// const statuses = ['Available','Sold out','Available'];
+
+// statuses.forEach( (stat,index) => {
+//     console.log(stat,index)
+//     specialtyElements[index].textContent = stat;
+
+// })
+
+
+
+
